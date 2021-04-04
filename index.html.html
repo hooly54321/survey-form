@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey form</title>
+</head>
+
+  <link rel="stylesheet" type="text/css" href="css.css">
+
+
+
+</script>
+
+<h1 align='center' id='title'><p style="color: black">Basketball Tryout Form</p></h1>
+
+<form  id="survey-form" >
+  
+  <p id="description" align='center'>Background check</p>
+  
+  <label id="name-label" for="name">* NAME : </label><input id="name" type='text' placeholder=' enter your name' required>
+  
+  <label id='email-label'>* E-MAIL : </label><input id='email' type='email'
+     placeholder=' enter your email' required>
+  
+  <label id='number-label'>* AGE : </label><input id='number' type='number' placeholder=' age' min="18" max="30" required>
+  
+ 
+  <label for='dropdown'>WHAT POSITION IN BASKETBALL YOU PLAY:</label>
+  <select id='dropdown'>
+    <option value='Center'>Center</option>
+    <option value='Point Guard'>Point Guard</option>
+    <option value='Shooting Guard'>Shooting Guard</option>
+    <option value='Small Forward'>Small Forward</option>
+    <option value='Power Forward'>Power Forward</option>
+  </select>
+  
+  <label target>Height: </label>
+  <div id='radio'>
+    <label for='1'><input type='radio' name='period' id ='1' value='1 year'>5'0-5'5</label>
+    <label for='2'><input type='radio' name='period'  id ='2' value='2 years'>5'6-6'0</label>
+    <label for='3'><input type='radio' name='period'  id ='3' value='3 years'>6'1 and up</label>
+  </div>
+  
+  <label target>Basketball Skill Level ? :</label>
+  <div id='check'>
+    <label for='a'><input type='checkbox' name='lt' id ='a' value='self-learning'>Beginner</label>
+     <label for='b'><input type='checkbox' name='lt' id ='b' value='learning with teacher'>Intermediate</label>
+     <label for='c'><input type='checkbox' name='lt' id ='c' value='group learning'>Experienced</label>
+    <label for='d'><input type='checkbox' name='lt' id ='d' value='onlign learning'>Advanced</label>
+    <label for='c'><input type='checkbox' name='lt' id ='c' value='private learning'>Expert</label>
+  </div>
+  
+  <label target>TELL US WHY WE NEED YOU:</label>
+  <textarea placeholder='enter any comments or suggestion here'></textarea>
+  
+  <input type='submit' id='submit'>
+ 
+     
+</form>
+  
+
+<body>
+
+</body>
+</html>
